@@ -1,0 +1,61 @@
+Actividad 1 de Base de datos
+
+* ¿Que es SQL? ¿Para qué se utiliza?
+* ¿Para qué sirve la sentencia SELECT? Escriba su estructura básica.
+* ¿Para qué sirve la clausula FROM?
+* ¿Para qué sirve la clausula WHERE?
+* Mencione y describa brevemente al menos 4 sentencia SQL
+
+
+1* 
+    SQL significa Lenguaje de Consulta Estructurada
+    SQL le permite acceder y manipular bases de datos
+    SQL se convirtió en un estándar del American National Standards Institute (ANSI) en 1986 y de
+    la Organización Internacional de Normalización (ISO) en 1987.
+SQL es un lenguaje estándar para almacenar, manipular y recuperar datos en bases de datos.
+Nuestro tutorial de SQL le enseñará cómo usar SQL en: MySQL, SQL Server, MS Access, Oracle, Sybase,
+Informix, Postgres y otros sistemas de bases de datos.
+
+2* El SELECTL declaración se utiliza para seleccionar datos de una base de datos.
+
+3* Es para seleccionar la tabla.
+
+4* El WHEREcláusula se usa para filtrar registros.
+Se utiliza para extraer sólo los registros que cumplen un afección.
+
+5*  +Declaraciones SQL
+La mayoría de las acciones que necesita para realizar en una base de datos se hacen con declaraciones SQL.
+Las declaraciones de SQL consisten en palabras clave que son fáciles de entender.
+
+    +El SQL MIN() y MAX () Funciones
+El MIN()función devuelve el valor más pequeño de la columna seleccionada.
+El MAX()función devuelve el mayor valor de la columna seleccionada.
+
+    +El operador SQL LIKE
+El LIKEel operador se utiliza en un WHEREcláusula para buscar un patrón especificado en una columna.
+Hay dos comodines a menudo utilizados en conjunción con el LIKEoperador:
+    El signo del porcentaje %representa cero, uno o múltiples caracteres
+    La señal de subrayado _representa un solo personaje.
+
+    +Funciones agregadas SQL
+
+Una función agregada es una función que realiza un cálculo en un conjunto de valores, y devuelve un solo valor.
+Las funciones agregadas se utilizan a menudo con la GROUP BYcláusula de la SELECTdeclaración.
+El GROUP BY la cláusula divide el resultado en grupos de valores y la función agregada se puede utilizar para
+devolver un valor único para cada grupo.
+Las funciones agregadas SQL más utilizadas son:
+    MIN()- devuelve el valor más pequeño en la columna seleccionada
+    MAX()- devuelve el mayor valor dentro de la columnas seleccionadas
+    COUNT()- devuelve el número de hileras en un conjunto
+    SUM()- devuelve la suma total de una columna numérica
+    AVG()- devuelve el valor medio de una columna numérica
+Funciones agregadas ignoran los valores nulos (excepto COUNT(*)).
+
+
+
+
+
+
+
+
+
