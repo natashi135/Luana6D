@@ -1,0 +1,96 @@
+header{
+    width: 100%;
+    height: 150px;
+    background-color:#a3cbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+nav{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-menu{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    border-radius: 50%;
+    background: linear-gradient(#4c92b5,#006599);
+    color: #fafafa;
+    transition: all 0.5s ease;
+}
+
+.boton-menu:hover{
+    border: 2px solid rgba(255,255,255,0.5);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.75);
+}
+
+.boton-menu span{
+    font-size: 30px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+section{
+    width: 75%;
+    height: 100%;
+    padding: 50px;
+    
+}
+
+section h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: #006599;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.75);
+
+}
+
+.portafoto{
+    width: 100%;
+    position: relative;
+}
+
+.portafoto p{
+    width: 30%;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background: rgba(0,0,0,0.5);
+    color: #fafafa;
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.portafoto img{
+    width: 100%;
+}
+
+aside{
+    width: 25%;
+    height: 100%;
+    background-color: peru;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+}
